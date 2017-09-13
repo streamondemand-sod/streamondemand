@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+	<id>filmbelli</id>
+	<name>Filmbelli</name>
+
+	<active>false</active>
+	<adult>false</adult>
+	<language>it</language>
+
+	<fanart></fanart>
+	<thumbnail>http://www.filmbelli.gratis/wp-content/themes/FilmBelli/images/logo.png</thumbnail>
+	<bannermenu>http://www.filmbelli.gratis/wp-content/themes/FilmBelli/images/logo.png</bannermenu>
+
+	<update_url>https://raw.githubusercontent.com/streamondemand/plugin.video.streamondemand/master/channels/</update_url>
+	<version>5</version>
+	<date>06/09/2017</date>
+	<changes>Disabled Channel</changes>
+
+	<categories>
+		<category>movie</category>
+		<category>cult</category>
+	</categories>
+
+	<settings>
+		<id>include_in_global_search</id>
+		<type>bool</type>
+		<label>Includi ricerca globale</label>
+		<default>false</default>
+		<enabled>false</enabled>
+		<visible>false</visible>
+	</settings>
+</channel>
